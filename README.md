@@ -1,4 +1,4 @@
-# mono repo poc
+# mono repo
 
 ## before start
 
