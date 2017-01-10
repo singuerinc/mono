@@ -1,4 +1,4 @@
-# mono repo version
+# mono repo
 
 ## before start
 
