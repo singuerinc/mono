@@ -1,0 +1,42 @@
+{
+  "name": "singuerinc-mono",
+  "description": "",
+  "author": "singuerinc <nahuel.scotti@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/singuerinc/mono/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-lerna-changelog/"
+    }
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^2.8.6",
+    "cz-lerna-changelog": "0.2.1",
+    "lerna": "2.0.0-beta.30",
+    "lerna-semantic-release": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/singuerinc/mono.git"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
+    "postinstall": "lerna bootstrap"
+  },
+  "release": {
+    "branch": "master"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "version": "0.0.0",
+  "private": true
+}

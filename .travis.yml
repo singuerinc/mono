@@ -1,0 +1,17 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - "5"
+before_install: .travis/before_install.sh
+after_success: .travis/after_success.sh
+git:
+  depth: 1
+script:
+  - lerna run lint
+  - lerna run test
+  - lerna run build
