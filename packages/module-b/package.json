@@ -1,6 +1,6 @@
 {
-  "name": "singuerinc-module-b",
-  "version": "0.1.2",
+  "name": "singuerinc-module-b1",
+  "version": "0.0.0",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "singuerinc-module-a": "^0.1.0"
+    "singuerinc-module-a1": "^0.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",

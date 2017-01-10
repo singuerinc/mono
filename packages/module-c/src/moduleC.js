@@ -1,4 +1,4 @@
-import { ModuleB, } from "singuerinc-module-b";
+import { ModuleB, } from "singuerinc-module-b1";
 
 export class ModuleC {
     constructor() {
