@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "singuerinc-module-a1": "^0.0.0"
+    "singuerinc-module-a1": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",

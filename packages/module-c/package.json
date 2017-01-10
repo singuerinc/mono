@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "singuerinc-module-b1": "^0.0.0"
+    "singuerinc-module-b1": "^1.0.0"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.0.1",
